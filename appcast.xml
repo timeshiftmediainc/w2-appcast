@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>W2 Apps Updates</title>
+
+        <item>
+            <title>Pilates Anytime - Android</title>
+            <sparkle:minimumSystemVersion>40.1.8</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://play.google.com/store/apps/details?id=com.pilatesanytime.pilatesanytime"
+                sparkle:version="40.1.8"
+                sparkle:os="android" />
+        </item>
+
+        <item>
+            <title>Pilates Anytime - iOS</title>
+            <sparkle:minimumSystemVersion>40.1.8</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://apps.apple.com/app/id646991927"
+                sparkle:version="40.1.9"
+                sparkle:os="ios" />
+        </item>
+
+        <item>
+            <title>Yoga Anytime - Android</title>
+            <sparkle:minimumSystemVersion>40.1.8</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://play.google.com/store/apps/details?id=com.yogaanytime.yogaanytime"
+                sparkle:version="40.1.8"
+                sparkle:os="android" />
+        </item>
+
+        <item>
+            <title>Yoga Anytime - iOS</title>
+            <sparkle:minimumSystemVersion>40.1.8</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://apps.apple.com/app/id1030917132"
+                sparkle:version="40.1.9"
+                sparkle:os="ios" />
+        </item>
+
+    </channel>
+</rss>
