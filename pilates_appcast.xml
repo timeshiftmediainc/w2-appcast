@@ -33,34 +33,5 @@
                 length="0"
                 type="text/html" />
         </item>
-
-        <!-- Yoga Anytime - Android -->
-        <item>
-            <title>Yoga Anytime - Android 40.1.8</title>
-            <pubDate>Tue, 31 Mar 2026 10:00:00 +0000</pubDate>
-
-            <enclosure
-                url="https://play.google.com/store/apps/details?id=com.yogaanytime.yogaanytime"
-                sparkle:version="40108"
-                sparkle:shortVersionString="40.1.8"
-                sparkle:os="android"
-                length="0"
-                type="text/html" />
-        </item>
-
-        <!-- Yoga Anytime - iOS -->
-        <item>
-            <title>Yoga Anytime - iOS 40.1.9</title>
-            <pubDate>Tue, 31 Mar 2026 10:00:00 +0000</pubDate>
-
-            <enclosure
-                url="https://apps.apple.com/app/id1030917132"
-                sparkle:version="40109"
-                sparkle:shortVersionString="40.1.9"
-                sparkle:os="ios"
-                length="0"
-                type="text/html" />
-        </item>
-
     </channel>
 </rss>
