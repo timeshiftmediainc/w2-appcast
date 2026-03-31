@@ -22,6 +22,15 @@ sparkle:shortVersionString="40.1.8"
 
 **Never use** plain integers like `sparkle:version="40108"` — the Flutter `upgrader` package will misparse them as `40108.0.0`.
 
+`minimumSystemVersion` refers to the **minimum OS version** required to run the app — not the app's own version. It is set independently and only applies to **iOS items**. Android handles this via `flutter.minSdkVersion` in `build.gradle`, so it should be **omitted from Android items**.
+
+```xml
+<!-- iOS only -->
+<sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+```
+
+The current iOS minimum deployment target is **13.0**, which matches the Xcode project setting.
+
 ---
 
 ## How to Update a Version
@@ -40,6 +49,7 @@ Claude will update all of the following fields together:
 2. `<pubDate>` — set to today's date in RFC 2822 format
 3. `sparkle:version` — the version used for comparison by the upgrader package
 4. `sparkle:shortVersionString` — the version shown to users
+5. `<sparkle:minimumSystemVersion>` — **iOS items only**, the minimum iOS OS version required (currently `13.0`). Only change this if the Xcode minimum deployment target changes.
 
 ---
 
@@ -56,6 +66,8 @@ Claude will update all of the following fields together:
 |---|---|
 | Android | 40.1.8 |
 | iOS | 40.1.9 |
+
+**iOS minimum OS version:** `13.0` (both apps — only update if Xcode deployment target changes)
 
 > Keep this table in sync whenever you update a version.
 
@@ -88,6 +100,7 @@ Claude will update all of the following fields together:
         <item>
             <title>App Name - iOS {VERSION}</title>
             <pubDate>{DATE}</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="{APP_STORE_URL}"
                 sparkle:version="{VERSION}"
@@ -110,3 +123,4 @@ Claude will update all of the following fields together:
 | Yoga Anytime | iOS | `https://apps.apple.com/app/id1030917132` |
 | Pilates Anytime | Android | `https://play.google.com/store/apps/details?id=com.pilatesanytime.pilatesanytime` |
 | Pilates Anytime | iOS | `https://apps.apple.com/app/id646991927` |
+
