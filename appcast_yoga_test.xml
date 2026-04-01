@@ -3,16 +3,16 @@
     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
 
     <channel>
-        <title>W2 Apps Updates</title>
-        <description>Latest releases for W2 apps</description>
+        <title>W2 Test Apps Updates</title>
+        <description>Latest releases for W2 Test apps</description>
 
-        <!-- Pilates Anytime - Android -->
+        <!-- Yoga Anytime Test - Android -->
         <item>
-            <title>Pilates Anytime - Android 40.2.7</title>
+            <title>Yoga Anytime Test - Android 40.2.7</title>
             <pubDate>Tue, 31 Mar 2026 10:00:00 +0000</pubDate>
 
             <enclosure
-                url="https://play.google.com/store/apps/details?id=com.pilatesanytime.pilatesanytime"
+                url="https://play.google.com/store/apps/details?id=com.yogaanytime.yogaanytime.dev"
                 sparkle:version="40.2.7"
                 sparkle:shortVersionString="40.2.7"
                 sparkle:os="android"
@@ -20,13 +20,13 @@
                 type="text/html" />
         </item>
 
-        <!-- Pilates Anytime - iOS -->
+        <!-- Yoga Anytime Test - iOS -->
         <item>
-            <title>Pilates Anytime - iOS 40.2.7</title>
+            <title>Yoga Anytime Test - iOS 40.2.7</title>
             <pubDate>Tue, 31 Mar 2026 10:00:00 +0000</pubDate>
 
             <enclosure
-                url="https://apps.apple.com/app/id646991927"
+                url="https://apps.apple.com/app/id6502645780"
                 sparkle:version="40.2.7"
                 sparkle:shortVersionString="40.2.7"
                 sparkle:os="ios"
