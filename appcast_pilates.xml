@@ -19,10 +19,34 @@
                 length="0"
                 type="text/html" />
         </item>
+        <item>
+            <title>(DEV)Pilates Anytime - Android 40.1.8</title>
+            <pubDate>Tue, 31 Mar 2026 10:00:00 +0000</pubDate>
+
+            <enclosure
+                url="https://play.google.com/store/apps/details?id=com.pilatesanytime.pilatesanytime.dev"
+                sparkle:version="40.1.8"
+                sparkle:shortVersionString="40.1.8"
+                sparkle:os="android"
+                length="0"
+                type="text/html" />
+        </item>
 
         <!-- Pilates Anytime - iOS -->
         <item>
             <title>Pilates Anytime - iOS 40.1.9</title>
+            <pubDate>Tue, 31 Mar 2026 10:00:00 +0000</pubDate>
+
+            <enclosure
+                url="https://apps.apple.com/app/id646991927"
+                sparkle:version="40.1.9"
+                sparkle:shortVersionString="40.1.9"
+                sparkle:os="ios"
+                length="0"
+                type="text/html" />
+        </item>
+        <item>
+            <title>(DEV)Pilates Anytime - iOS 40.1.9</title>
             <pubDate>Tue, 31 Mar 2026 10:00:00 +0000</pubDate>
 
             <enclosure
